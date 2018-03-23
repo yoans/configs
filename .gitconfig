@@ -1,0 +1,20 @@
+[user]
+	name = Nathaniel Young
+	email = NY15855@johndeere.com
+
+[core]
+	autocrlf = false
+    eol = lf
+
+[push]
+    default = simple
+[alias]
+	co = checkout
+[alias]
+	st = status
+	ignore-changes = update-index --assume-unchanged
+	track-changes = update-index --no-assume-unchanged
+[url "https://"]
+	insteadOf = git://
+[credential]
+	helper = wincred
